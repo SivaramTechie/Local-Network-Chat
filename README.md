@@ -48,7 +48,35 @@ A simple chat application for communication over a local network. This project c
 - Run the client script on multiple machines, providing the server's IP address.
 - Type messages in the client's console to chat with others.
 
+## Documentation
+
+### Server Documentation (server.py):
+
+```python
+"""
+Server for Local Network Chat
+
+This script creates a simple chat server that allows multiple clients to connect over a local network and chat with each other.
+
+Usage:
+    - Run this script on a machine that will act as the server.
+    - Clients connect to the server's IP address and port to participate in the chat.
 
 Requirements:
     - Python 3.x
 """
+
+"""
+Client for Local Network Chat
+
+This script creates a simple chat client that connects to a server over a local network and allows the user to send and receive messages.
+
+Usage:
+    - Run this script on each machine where you want to have a chat client.
+    - Change the SERVER_IP variable to the IP address of the machine running the server.
+    - Clients can communicate with each other through the central server.
+
+Requirements:
+    - Python 3.x
+"""
+
