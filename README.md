@@ -19,7 +19,7 @@ A simple chat application for communication over a local network. This project c
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/local-network-chat.git
+    git clone https://github.com/SivaramTechie/local-network-chat.git
     ```
 
 2. Navigate to the project directory:
